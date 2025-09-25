@@ -1,0 +1,41 @@
+.sectt{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.vendas{
+    
+    text-align: center;
+    border: 2px solid #47A5AE;
+    border-radius: 10px;
+    margin: 1em;
+    
+}
+.representante{
+    text-align: center;
+    border: 2px solid #47A5AE;
+    border-radius: 10px;
+    margin: 1em;
+}
+.orcamento{
+    text-align: center;
+    border: 2px solid #47A5AE;
+    border-radius: 10px;
+    margin: 1em;
+}
+.servicoseprop{
+    text-align: center;
+    border: 2px solid #47A5AE;
+    border-radius: 10px;
+    margin: 1em;
+}
+.cttctt{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+.botaosobre{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+article{
+    text-align: center;
+    margin-bottom: 3em;
+
+}
+.secsobre{
+    text-align: center;
+    margin-top: 3em;
+}
+.hr1 {
+    border: none;
+    height: 2px;
+    width: 50%;                /* só metade da tela */
+    margin: 20px auto;         /* centraliza */
+    background-color: #222;
+}
+.h2sobre{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.bttsobre{
+    margin-bottom: 3em;
+}
+.botaosobre{
+    text-align: center;
+}
