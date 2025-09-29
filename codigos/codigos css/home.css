@@ -46,3 +46,7 @@
     align-content: space-around;
 
 }
+.comeco{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
