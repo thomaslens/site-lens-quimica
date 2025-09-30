@@ -1,0 +1,30 @@
+.info{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img-1{
+    grid-column: 1 / span 2;
+}
+.cont{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+article{
+    display: grid;
+    text-align: center
+}
+.cont-2{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    text-align: center;
+}
+.imagens{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.colhedera{
+    width: auto;
+    height: auto;
+
+}
