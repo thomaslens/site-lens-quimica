@@ -18,18 +18,9 @@ article{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: center;
+    margin-top: 3em;
 }
-.imagens{
-    display: grid;
-    justify-items: center;
+.secyou{
+    text-align: center;
 }
-.colhedera{
-    width: auto;
-    height: auto;
 
-}
-.col{
-    display: grid;
-
-    -ms-grid-column-align: center;
-}
