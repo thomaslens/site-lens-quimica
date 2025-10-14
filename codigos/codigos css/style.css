@@ -88,13 +88,13 @@ nav a:hover{
     background: #444477;
     color: #bbbbdd;
   }
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     .theme-b.adaptive {
       background: #bbccdd;
       color: #333344;
       outline: 5px dotted black;
     }
-  }
+  } */
 a{
      transition: transform 0.3s ease-in-out;
 }
