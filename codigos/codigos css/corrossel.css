@@ -56,20 +56,18 @@
     overflow: hidden; /* Esconde as imagens que saem da tela */
     position: relative;
     
-    
   }
   .segundo-2{
     display: flex; /* Alinha as imagens horizontalmente */
     flex-wrap: nowrap; /* Impede que as imagens quebrem para a próxima linha */
     width: 400%; /* 100% por imagem * 4 imagens */
     animation: slider 20s infinite; /* Nome da animação, duração e repetição */
-    
   }
 
   .segundo-2 img{
     width: 25%; /* Cada imagem ocupa 25% da largura do contêiner */
     height: auto;
     object-fit: cover; /* Garante que a imagem cubra a área */
-    
+
   }  
   

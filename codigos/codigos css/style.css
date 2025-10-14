@@ -31,6 +31,7 @@ a{
 footer{
     display: grid;
     grid-template-columns: auto auto auto;
+    
 
 }
 .direitos{
@@ -47,4 +48,56 @@ footer{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     
+}
+button:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+.menu2 a:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+nav a:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+} 
+.redes a img:hover{
+     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+.theme-a {
+    background: transparent;
+    color: #88899c;
+  }
+@media (prefers-color-scheme: dark) {
+    body{
+        background-image: linear-gradient(135deg, #252222, #015c64 ); 
+    }
+    .cabecalho{
+        background-image: linear-gradient(135deg, #252222, #015c64 );        
+    }
+    p, h1, h2, h3, a{
+        color: aliceblue;
+    }
+    .botao1{
+        background-color: transparent;
+    }
+    button{
+        background-color: transparent;
+    }
+
+  }
+
+.theme-b {
+    background: #444477;
+    color: #bbbbdd;
+  }
+@media (prefers-color-scheme: light) {
+    .theme-b.adaptive {
+      background: #bbccdd;
+      color: #333344;
+      outline: 5px dotted black;
+    }
+  }
+a{
+     transition: transform 0.3s ease-in-out;
+}
+a:hover{
+     transform: scale(1.2);
 }
