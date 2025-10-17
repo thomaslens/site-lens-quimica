@@ -1,0 +1,26 @@
+.info{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+article{
+    display: grid;
+    text-align: center
+}
+.cont-2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    margin-top: 3em;
+}
+.secyou{
+    text-align: center;
+}
+h5{
+    color: #F0F8FF;
+}
