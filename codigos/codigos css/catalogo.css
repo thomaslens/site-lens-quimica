@@ -1,0 +1,52 @@
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* text-align: center; */
+    border: 2px;
+    border-color: brown;
+    border-style: solid;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+
+}
+/* .sec.unitta{
+    display: grid;
+    grid-template-columns:30% auto;
+
+} */
+a{
+    size: 100%
+}
+section h1, h2, h3, p, h4{
+    text-align: center;
+    
+}
+/* .prodsec1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+h3{
+    display: grid;
+    text-align: center;
+}
+.prodsec1 a{
+    
+    display: grid;
+    justify-content: space-around
+    
+
+   
+}
+
+
+body{
+    overflow-x: hidden;
+}
+.menu2{
+    margin-top: 5em;
+}
+.prodsec1 div img{
+    margin-top: 3em;
+} */

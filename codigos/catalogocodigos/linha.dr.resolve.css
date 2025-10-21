@@ -1,0 +1,28 @@
+.prodsec1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+h3{
+    display: grid;
+    text-align: center;
+}
+.prodsec1 a{
+    
+    display: grid;
+    justify-content: space-around
+    
+
+   
+}
+
+
+body{
+    overflow-x: hidden;
+}
+.menu2{
+    margin-top: 5em;
+}
+.prodsec1 div img{
+    margin-top: 3em;
+}
